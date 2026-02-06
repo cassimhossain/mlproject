@@ -24,7 +24,6 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
     
-
     
 ##This code creates a custom exception framework that:
 ##Intercepts a Python exception
