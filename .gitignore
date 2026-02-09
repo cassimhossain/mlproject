@@ -136,6 +136,8 @@ celerybeat.pid
 
 # Environments
 .artifact
+.artifact/
+artifact/
 .env
 .envrc
 .venv
@@ -144,6 +146,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.catboost_info
+.catboost_info/
 
 # Spyder project settings
 .spyderproject
